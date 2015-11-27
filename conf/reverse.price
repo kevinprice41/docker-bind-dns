@@ -1,0 +1,24 @@
+$TTL 86400
+@   IN  SOA     vader.price.local. root.price.local. (
+        2011071002  ;Serial
+        3600        ;Refresh
+        1800        ;Retry
+        604800      ;Expire
+        86400       ;Minimum TTL
+)
+@       IN  NS          vader.price.local.
+@       IN  NS          skywalker.price.local.
+@       IN  NS          r2d2.price.local.
+@       IN  NS          c3po.price.local.
+@       IN  NS          obiwan.price.local.
+@       IN  PTR         price.local.
+vader       IN  A   10.0.1.18
+skywalker   IN  A   10.0.1.17
+r2d2        IN  A   10.0.1.15
+c3po        IN  A   10.0.1.19
+obiwan      IN  A   10.0.1.20
+15     IN  PTR         r2d2.price.local.
+17     IN  PTR         skywalker.price.local.
+18     IN  PTR         vader.price.local.
+19     IN  PTR         c3po.price.local.
+20     IN  PTR         obiwan.price.local.
